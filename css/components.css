@@ -36,12 +36,9 @@
   width: 10%;
   border: solid 0.5px;
   font-size: 15px;
-<<<<<<< HEAD
   margin-top: 1px;
-=======
   z-index: 1;
   overflow-x: hidden;
->>>>>>> 990e48632f3e7a4a0fec6f0d8bdeeec52c796a07
 }
 .headline{
 
@@ -211,8 +208,6 @@ p {
   border: none;
   font-size: 17px;
 }
-
-
   .topnav a, .topnav input[type=text] {
     float: none;
     display: block;
@@ -276,6 +271,7 @@ p {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+/*the sidebar for the buttons*/
 .sidenav {
   position: fixed;
   height: 100%;
@@ -289,17 +285,4 @@ p {
   padding-top: 20px;
   border: solid 0.5px; 
   justify-content: space-around;
-
-}
-.sidebar-fixed{
-  background-color: silver;
-  position: fixed;
-  left: 0px;
-  top: 10%;
-  height: 100%;
-  width: 10%;
-  border: solid 0.5px;
-  font-size: 15px;
-  z-index: 1;
-  overflow-x: hidden;
 }
