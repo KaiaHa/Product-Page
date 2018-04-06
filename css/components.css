@@ -15,6 +15,7 @@
     border: solid 1px;
     font-size: 25px;
     height: 5%;
+    padding: 10%;
 }
 .navbar-fixed-alt{
     background-color: silver;
@@ -213,5 +214,5 @@ p {
     padding: 14px;
   }
   .topnav input[type=text] {
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
   }
