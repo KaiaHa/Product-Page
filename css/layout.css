@@ -143,9 +143,10 @@ h1 {
 }
 .box{
   display: flex;
-  margin: 5px 0px 0px;
-  border: solid 1px black;
+  margin: 15px 0px 0px;
   justify-content: space-around;
+  font-size: 150%;
+
 }
 .width-80{
   width: 80%;
