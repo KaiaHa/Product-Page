@@ -55,6 +55,7 @@ margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  text-align: center;
   justify-content: space-around;
   margin: 0px;
 }
@@ -63,6 +64,14 @@ margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin: 0px;
+}
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
   margin: 0px;
 }
 .flexy-row {
@@ -150,12 +159,24 @@ h1 {
   margin: 15px 0px 0px;
   justify-content: space-around;
   font-size: 150%;
+}
+.box-showcase{
+  height: 650px;
+  width: 800px;
 
+  border: solid 1px black;
+  margin-top: 10%;
+}
+.box-image-showcase{
+  width: 750px;
+  height: 350px;
+  border: solid 1px black;
+  margin-top: 5px;
 }
 .width-80{
   width: 80%;
 }
-__________________________________________________________________
+_stage_________________________________________________________________
 h3{
   text-align: center;
   font-size: 1.5em;
