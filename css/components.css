@@ -28,6 +28,7 @@
 }
 .sidebar-fixed{
   background-color: silver;
+  position: fixed;
   left: 0px;
   top: 10%;
   height: 100%;
