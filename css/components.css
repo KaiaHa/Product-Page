@@ -21,7 +21,7 @@
     background-color: silver;
     position: fixed;
     width: 100%;
-    border: solid 1px;
+    border: solid 0.5px;
     font-size: 25px;
     height: 10%;
     top: 0px;
@@ -34,8 +34,10 @@
   top: 10%;
   height: 100%;
   width: 10%;
-  border: solid 1px;
+  border: solid 0.5px;
   font-size: 15px;
+  z-index: 1;
+  overflow-x: hidden;
 }
 .headline{
 
@@ -204,7 +206,7 @@ p {
   font-size: 17px;
 }
 
-@media screen and (max-width: 600px) {
+
   .topnav a, .topnav input[type=text] {
     float: none;
     display: block;
@@ -216,3 +218,82 @@ p {
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 8px 4px 4px -1px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    border-right: solid 0.5px;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    background-color: orange;
+  }
+
+  /* Main content */
+  .main {
+    margin-left: 10%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: orange;
+    color: white;
+  }
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: silver;
+    padding-left: 8px;
+  }
+
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 500px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 10%;
+  left: 0;
+  background-color:silver;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: solid 0.5px; 
+  justify-content: space-around;
+
+}
+.sidebar-fixed{
+  background-color: silver;
+  position: fixed;
+  left: 0px;
+  top: 10%;
+  height: 100%;
+  width: 10%;
+  border: solid 0.5px;
+  font-size: 15px;
+  z-index: 1;
+  overflow-x: hidden;
+}
