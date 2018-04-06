@@ -1,0 +1,31 @@
+.thumbnail-grid figure.i2 {
+    background: url('IMG') no-repeat center;
+  }
+  .grow { transition: all .1s ease-out; }
+.grow:hover { transform: scale(1.2); }
+#library {
+  background-image: url('IMG');
+width: 250px;
+height: 400px;
+transition: ease-in 0.3s;
+}
+#library:hover {
+  background-image: url('IMG');
+  image-orientation: unset;
+  background-image: cross-fade('IMG');
+  opacity: 1;
+  transition: ease-in 0.5s;
+}
+  #library-1 {
+    background-image: url('IMG');
+  width: 250px;
+  height: 400px;
+  transition: ease-in 0.3s;
+  }
+  #library-1:hover {
+    background-image: url('IMG');
+    image-orientation: unset;
+    background-image: cross-fade('IMG');
+    opacity: 1;
+    transition: ease-in 0.5s;
+}
