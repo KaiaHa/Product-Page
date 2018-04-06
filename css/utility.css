@@ -31,7 +31,9 @@
 .margin-auto {
     margin: auto;
 }
-
+.margin-top{
+  margin: top 2%;
+}
 /* Margin's end */
 
 /* border's start */
