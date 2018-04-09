@@ -181,13 +181,20 @@ h3{
   text-align: center;
   font-size: 1.5em;
   justify-content: space-around;
- color: black
+  color: black;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 p{
   text-align: center;
   font-size: 1em;
   justify-content: space-around;
- color: black
+ color: black;
+}
+a{
+  text-align: center;
+  font-size: 1em;
+  justify-content: space-around;
+ color: black;
 }
 .textleft{
   text-align: left;
